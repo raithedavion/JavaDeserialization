@@ -27,4 +27,4 @@ The script replaces the use of ysoerial with static code.  It has been tested on
 
 Usage:
 
-python rmi.py targetid port usessl 'command'
+python rmi.py targetip port usessl 'command'
