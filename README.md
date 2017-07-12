@@ -17,3 +17,14 @@ Sources:
 Foxglove blog: https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
 Foxglove github: https://github.com/foxglovesec/JavaUnserializeExploits
 ysoserial: https://github.com/frohoff/ysoserial/
+
+
+rmi.py is based on the premise of WebSphere.py.
+
+Description:
+
+The script replaces the use of ysoerial with static code.  It has been tested on opennms and vmware vdp.  
+
+Usage:
+
+python rmi.py targetid port usessl 'command'
