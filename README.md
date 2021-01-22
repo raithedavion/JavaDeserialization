@@ -28,3 +28,6 @@ The script replaces the use of ysoerial with static code.  It has been tested on
 Usage:
 
 python rmi.py targetip port usessl 'command'
+
+Multiple commands:
+You can issue piped commands/etc using the following syntax.  sh -c $@|sh . echo command.  This structure was taken from the following blog: https://codewhitesec.blogspot.com/2015/03/sh-or-getting-shell-environment-from.html
